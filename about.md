@@ -2,7 +2,7 @@
 layout: post
 title: About
 description: About me and my approach
-image: assets/images/pic11.jpg
+image: assets/images/bridge01.jpg
 nav-menu: true
 order: 1
 ---
