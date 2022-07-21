@@ -7,7 +7,7 @@ order: 4
 ---
 
 ## Referrals
-You can make a self-referral to this service by email, phone, or via the online contact form below. I understand that seeking psychological help can be a difficult task, so feel free to contact me in the way that suits you best. When you do get in touch please provide me with your name, contact details, when you would like to be seen, and a brief summary of your current difficulties.
+You can make a self-referral to by email, phone, or via the online contact form below. I understand that seeking psychological help can be a difficult task, so feel free to contact me in the way that suits you best. When you do get in touch please provide me with your name, contact details, when you would like to be seen, and a brief summary of your current difficulties.
 
 I will try to contact you within two working days to arrange an initial appointment. In that session, we'll explore your current difficulties and discuss possible treatment options.
 
