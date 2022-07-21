@@ -97,86 +97,139 @@
 
     <!-- Contact -->
 <section id="contact">
-	<div class="inner">
-		<section>
-			<form action="https://formspree.io/f/xeqnyzpo" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:bridgetbarnestherapy@gmail.com">bridgetbarnestherapy@gmail.com</a>
-				</div>
-			</section>
-      
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:+44 756 410 3546">+44 756 410 3546</a>
-				</div>
-			</section>
-      
-		</section>
-	</div>
+    <div class="inner">
+        <section>
+            <form action="https://api.web3forms.com/submit" id=form method="POST">
+                <input type="hidden" name="access_key" value="465a2ca0-5a3e-458f-b4d2-695785d7b75b">
+                <div class="field half first">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name"/>
+                </div>
+                <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="text" name="_replyto" id="email"/>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6"></textarea>
+                </div>
+                <p class="text-base text-center text-gray-400" id="result"></p>
+                <ul class="actions">
+                    <li><button id="submit" type="submit" class="button special">Submit</button></li>
+                    <li><input type="reset" value="Clear"/></li>
+                </ul>
+            </form>
+        </section>
+        <section class="split">
+            <section>
+                <div class="contact-method">
+                    <span class="icon alt fa-envelope"></span>
+                    <h3>Email</h3>
+                    <a href="mailto:bridgetbarnestherapy@gmail.com">bridgetbarnestherapy@gmail.com</a>
+                </div>
+            </section>
+            
+            <section>
+                <div class="contact-method">
+                    <span class="icon alt fa-phone"></span>
+                    <h3>Phone</h3>
+                    <a href="tel:+44 756 410 3546">+44 756 410 3546</a>
+                </div>
+            </section>
+            
+        </section>
+    </div>
 </section>
 
 <!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-					
-				
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Bridget Barnes Therapy </li>
-			</ul>
-		</div>
-	</footer>
+<footer id="footer">
+    <div class="inner">
+        <ul class="icons">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Bridget Barnes Therapy </li>
+        </ul>
+    </div>
+</footer>
 
 </div>
 
 <!-- Scripts -->
-	<script src="/bridget-site/assets/js/jquery.min.js"></script>
-	<script src="/bridget-site/assets/js/jquery.scrolly.min.js"></script>
-	<script src="/bridget-site/assets/js/jquery.scrollex.min.js"></script>
-	<script src="/bridget-site/assets/js/skel.min.js"></script>
-	<script src="/bridget-site/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="/bridget-site/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="/bridget-site/assets/js/main.js"></script>
+<script src="/bridget-site/%20assets/js/jquery.min.js"></script>
+<script src="/bridget-site/%20assets/js/jquery.scrolly.min.js"></script>
+<script src="/bridget-site/%20assets/js/jquery.scrollex.min.js"></script>
+<script src="/bridget-site/%20assets/js/skel.min.js"></script>
+<script src="/bridget-site/%20assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="/bridget-site/%20assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="/bridget-site/%20assets/js/main.js"></script>
+
+<script>
+    const form = document.getElementById("form");
+    const result = document.getElementById("result");
+
+    form.addEventListener("submit", function (e) {
+        const formData = new FormData(form);
+        e.preventDefault();
+        var object = {};
+        formData.forEach((value, key) => {
+            object[key] = value;
+        });
+        var json = JSON.stringify(object);
+        result.innerHTML = "Please wait...";
+
+        fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: json
+        })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    result.innerHTML = json.message;
+                    result.classList.remove("text-gray-500");
+                    result.classList.add("text-green-500");
+                } else {
+                    console.log(response);
+                    result.innerHTML = json.message;
+                    result.classList.remove("text-gray-500");
+                    result.classList.add("text-red-500");
+                }
+            })
+            .catch((error) => {
+                console.log(error);
+                result.innerHTML = "Something went wrong!";
+            })
+            .then(function () {
+                form.reset();
+                setTimeout(() => {
+                    result.style.display = "none";
+                }, 5000);
+            });
+    });
+</script>
+
+
 
 
 </body>
