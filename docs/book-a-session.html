@@ -103,21 +103,24 @@
                 <input type="hidden" name="access_key" value="465a2ca0-5a3e-458f-b4d2-695785d7b75b">
                 <div class="field half first">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name"/>
+                    <input type="text" name="name" id="name" required="required" />
                 </div>
                 <div class="field half">
                     <label for="email">Email</label>
-                    <input type="text" name="_replyto" id="email"/>
+                    <input name="_replyto" id="email" type="email" required="required"/>
                 </div>
                 <div class="field">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="6"></textarea>
+                    <textarea name="message" id="message" rows="6" required="required"></textarea>
                 </div>
                 <p class="text-base text-center " id="result"></p>
                 <ul class="actions">
                     <li><button id="submit" type="submit" class="button special">Submit</button></li>
                 </ul>
             </form>
+            <div id="thank-you-box" class="box" hidden="hidden">
+                <p>Thank you, I'll respond within two working days.</p>
+            </div>
         </section>
         <section class="split">
             <section>
@@ -184,17 +187,18 @@
     const form = document.getElementById("form");
     const result = document.getElementById("result");
     const submitButton = document.getElementById("submit");
+    const thankYouBox = document.getElementById("thank-you-box")
 
     eventListener = function (e) {
         submitButton.classList.add("disabled");
 
         const formData = new FormData(form);
         e.preventDefault();
-        var object = {};
+        const object = {};
         formData.forEach((value, key) => {
             object[key] = value;
         });
-        var json = JSON.stringify(object);
+        const json = JSON.stringify(object);
         submitButton.textContent = "Sending..."
 
         fetch("https://api.web3forms.com/submit", {
@@ -210,6 +214,7 @@
                 if (response.status === 200) {
                     submitButton.classList.remove("special")
                     submitButton.textContent = "✅ Message sent";
+                    thankYouBox.hidden = false
                     form.removeEventListener("submit", eventListener)
                 } else {
                     console.log(response);
