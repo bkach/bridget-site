@@ -1,7 +1,7 @@
 ---
 title: How I can help
 layout: post
-description: 'My specialization'
+description: My approach and specialisation
 nav-menu: true
 order: 2
 ---

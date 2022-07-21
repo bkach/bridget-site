@@ -6,4 +6,4 @@ nav-menu: true
 order: 4
 ---
 
-To get started or if you would like any further information, please contact me using the form below.
+To get started or if you would like any further information, please contact me via email or using the form below.
