@@ -2,7 +2,6 @@
 title: How I can help
 layout: post
 description: 'My specialization'
-image: assets/images/pic07.jpg
 nav-menu: true
 order: 2
 ---

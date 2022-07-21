@@ -2,7 +2,6 @@
 title: Policies
 layout: post
 description: 'Fees, Referrals and Cancellations'
-image: assets/images/pic07.jpg
 nav-menu: true
 order: 4
 ---
