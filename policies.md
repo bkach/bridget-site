@@ -1,14 +1,14 @@
 ---
 title: Policies
 layout: post
-description: 'Fees, Referrals and Cancellations'
+description: 'Referrals, Fees and Cancellations'
 nav-menu: true
 order: 4
 ---
 
 # Referrals
 
-I understand that seeking psychological help can be a difficult task and a referral to our service can be made by phone or via our online contact form below.When you contact me for the first time, please provide me with your name, contact details, when you would like to be seen and a brief summary of your current difficulties.
+I understand that seeking psychological help can be a difficult task and a referral to our service can be made by phone or via our online contact form below. When you contact me for the first time, please provide me with your name, contact details, when you would like to be seen and a brief summary of your current difficulties.
 
 I will endeavour to contact you within two working days to arrange an initial appointment to explore your current difficulties and to discuss possible treatment options.
 
