@@ -113,10 +113,9 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="6"></textarea>
                 </div>
-                <p class="text-base text-center text-gray-400" id="result"></p>
+                <p class="text-base text-center " id="result"></p>
                 <ul class="actions">
                     <li><button id="submit" type="submit" class="button special">Submit</button></li>
-                    <li><input type="reset" value="Clear"/></li>
                 </ul>
             </form>
         </section>
@@ -184,8 +183,11 @@
 <script>
     const form = document.getElementById("form");
     const result = document.getElementById("result");
+    const submitButton = document.getElementById("submit");
 
-    form.addEventListener("submit", function (e) {
+    eventListener = function (e) {
+        submitButton.classList.add("disabled");
+
         const formData = new FormData(form);
         e.preventDefault();
         var object = {};
@@ -193,7 +195,7 @@
             object[key] = value;
         });
         var json = JSON.stringify(object);
-        result.innerHTML = "Please wait...";
+        submitButton.textContent = "Sending..."
 
         fetch("https://api.web3forms.com/submit", {
             method: "POST",
@@ -205,28 +207,26 @@
         })
             .then(async (response) => {
                 let json = await response.json();
-                if (response.status == 200) {
-                    result.innerHTML = json.message;
-                    result.classList.remove("text-gray-500");
-                    result.classList.add("text-green-500");
+                if (response.status === 200) {
+                    submitButton.classList.remove("special")
+                    submitButton.textContent = "✅ Message sent";
+                    form.removeEventListener("submit", eventListener)
                 } else {
                     console.log(response);
                     result.innerHTML = json.message;
-                    result.classList.remove("text-gray-500");
-                    result.classList.add("text-red-500");
                 }
             })
             .catch((error) => {
                 console.log(error);
-                result.innerHTML = "Something went wrong!";
+                result.innerHTML = "Something went wrong. Please try again.";
             })
             .then(function () {
-                form.reset();
                 setTimeout(() => {
                     result.style.display = "none";
                 }, 5000);
             });
-    });
+    }
+    form.addEventListener("submit", eventListener);
 </script>
 
 
