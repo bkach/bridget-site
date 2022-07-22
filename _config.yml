@@ -13,8 +13,6 @@ zip_code:
 country:
 phone: +44 756 410 3546
 
-destination: docs/
-
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
