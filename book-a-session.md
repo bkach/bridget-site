@@ -19,4 +19,4 @@ in order to find the best treatment options for you going forward.
 
 Please only book a regular session if you had already attended an introductory session.
 
-<a href="https://calendly.com/bridget-site/15-minute-introductory-session" class="button scrolly">Book a regular session</a>
+<a href="https://calendly.com/bridget-site/50min" class="button scrolly">Book a regular session</a>
