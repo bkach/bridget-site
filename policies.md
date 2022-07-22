@@ -11,11 +11,17 @@ You can make an appointment by email, phone, or via the online contact form belo
 
 I will try to contact you within two working days to arrange an initial appointment. In that session, we'll explore your current difficulties and discuss possible treatment options.
 
+<hr />
+
 ## Fees
 The self-funded fee for each therapy session is £150. The fee will be payable in cash upon arrival or bank transfer prior to the appointment.
 
+<hr />
+
 ## Appointment Duration
 Unless agreed otherwise, your therapy appointment will last for 50 minutes.
+
+<hr />
 
 ## Cancellations
 I operate with a 48-hour cancellation policy.
