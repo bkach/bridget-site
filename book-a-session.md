@@ -8,10 +8,15 @@ order: 4
 
 <img src="assets/images/therapy.jpg">
 
-Use the form below to book a session. Please include a brief summary of your current difficulties.
+## New clients
 
-The initial session is only 15 minutes long, as opposed to the usual 50 minute sessions. 
-The goal of this brief session is to explore your current difficulties in order to find the best treatment options for you
-going forward.
+The initial session is only 15 minutes long and is an opportunity to explore your current difficulties 
+in order to find the best treatment options for you going forward.
 
-I will try to respond within two working days. 
+<a href="https://calendly.com/bridget-site/15-minute-introductory-session" class="button scrolly">Book an introductory session</a>
+
+## Existing clients
+
+Please only book a regular session if you had already attended an introductory session.
+
+<a href="https://calendly.com/bridget-site/15-minute-introductory-session" class="button scrolly">Book a regular session</a>
