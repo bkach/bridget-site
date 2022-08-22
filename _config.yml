@@ -11,7 +11,7 @@ city:
 state:
 zip_code:
 country:
-phone:
+phone: +44 (0)7440595937
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
