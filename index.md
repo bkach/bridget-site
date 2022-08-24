@@ -1,7 +1,7 @@
 ---
 layout: home
 title:
-landing-title: 'Bridget Barnes Therapy'
+landing-title: 'Bridget Barnes Psychotherapy'
 description: CBT Specialist Online
 image: null
 author: null
