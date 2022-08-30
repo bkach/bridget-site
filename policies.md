@@ -18,7 +18,7 @@ I will try to contact you within two working days to arrange an initial appointm
 
 Your therapy appointment will last for 50 minutes.
 
-The self-funded fee for individual therapy is £150. The fee will be payable via bank transfer prior to the appointment.
+The self-funded fee for individual therapy is £120. The fee will be payable via bank transfer prior to the appointment.
 
 <hr />
 
