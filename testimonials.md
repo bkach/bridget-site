@@ -7,7 +7,7 @@ order: 4
 ---
 
 <blockquote>
-“Bridget was excellent, I have completely transformed as a person. I am no longer worried about the little things as I have tools to handle them in a rational way. I am leaving today feeling so confident and excited for life. “
+"Bridget was excellent, I have completely transformed as a person. I am no longer worried about the little things as I have tools to handle them in a rational way. I am leaving today feeling so confident and excited for life."
 </blockquote>
 
 <blockquote>
@@ -15,15 +15,15 @@ order: 4
 </blockquote>
 
 <blockquote>
-“Bridget was a great therapist. I am so grateful for all the help and support that she provided me”
+"Bridget was really wonderful. I have left my sessions feeling empowered and confident that I have everything I need to tackle my OCD and challenging situations that may arise in future. I really can not thank her enough and I'm excited that I have various exercises I can use to navigate my OCD."
+</blockquote>
+
+<blockquote>
+"Bridget was a great therapist. I am so grateful for all the help and support that she provided me"
 </blockquote>
 
 <blockquote>
 "I have had a wonderful experience with my sessions with Bridget. I feel like I have all the tools in my tool belt to successfully navigate challenging situations that come my way in the future."
-</blockquote>
-
-<blockquote>
-"Bridget was really wonderful. I have left my sessions feeling empowered and confident that I have everything I need to tackle my OCD and challenging situations that may arise in future. I really can not thank her enough and I'm excited that I have various exercises I can use to navigate my OCD."
 </blockquote>
 
 <blockquote>
@@ -37,4 +37,3 @@ order: 4
 <blockquote>
 "Bridget is a very skilled and empathetic therapist. I am so grateful to her for all the positive changes she has helped me achieve."
 </blockquote>
-
