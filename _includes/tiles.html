@@ -4,7 +4,7 @@
 {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
 <section id="one" class="tiles">
-    {% assign titles_sorted = titles | sort:"order" %}
+    {% assign tiles_sorted = tiles | sort:"order" %}
     {% for tile in tiles_sorted limit:site.tiles-count %}
     <article>
         <a href="{{ tile.url  | relative_url }}" class="link">
