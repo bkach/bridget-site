@@ -1,7 +1,7 @@
 ---
 title: Policies
 layout: post
-description: 'Referrals, Fees and Cancellations'
+description: 'Referrals, Fees, and Cancellations'
 nav-menu: true
 order: 4
 ---
