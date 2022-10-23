@@ -3,7 +3,7 @@ layout: post
 title: Testimonials
 description: How my therapy has helped others
 nav-menu: true
-order: 4
+order: 3
 ---
 
 <blockquote>
