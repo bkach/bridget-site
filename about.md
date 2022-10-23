@@ -14,6 +14,8 @@ I'm <b>Bridget Barnes</b>, an accredited Cognitive Behavioural Psychotherapist (
 
 I pride myself in providing you with the highest quality care during your sessions. Sessions are currently remote.
 
+<hr />
+
 ## My Approach to Therapy
 
 I specialise in using evidence-based treatment for depression and anxiety disorders including obsessive compulsive
