@@ -3,6 +3,14 @@
 
 {% include head.html %}
 
+<style>
+    @media (max-width: 1200px) {
+        img.dynamic-sizing-image { width:10%; }
+    }
+    @media (max-width: 500px) {
+        img.dynamic-sizing-image { width:80%; }
+    }
+</style>
 <body>
 
     {% include header.html %}
@@ -10,7 +18,7 @@
     <!-- Banner -->
     <section id="banner" class="major">
         <div class="inner">
-            <img src="assets/images/avatar.png" width="30%" media="(min-width: 1280px)"/>
+            <img class="dynamic-sizing-image" src="assets/images/avatar.png" width="30%" />
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
