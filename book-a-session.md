@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book a session
-description: Start with a 15-minute introductory call
+description: Start with a free 15-minute introductory call
 nav-menu: true
 order: 2
 ---
