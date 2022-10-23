@@ -7,3 +7,12 @@
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
 </head>
+
+<style>
+	@media {
+		img.dynamic-sizing-image { width:20%; }
+	}
+	@media (max-width: 736px) {
+		img.dynamic-sizing-image { width:50%; }
+	}
+</style>

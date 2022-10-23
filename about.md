@@ -8,7 +8,7 @@ order: 1
 
 ## About Me
 
-<img src="assets/images/avatar.png" width="30%"  alt="Photo of Bridget"/>
+<img src="assets/images/avatar.png" class="dynamic-sizing-image" alt="Photo of Bridget"/>
 
 I'm <b>Bridget Barnes</b>, an accredited Cognitive Behavioural Psychotherapist (British Association for Behavioural and Cognitive Psychotherapists). I've trained at the Institute of Psychiatry Psychology and Neuroscience at King's College London. I have a decade of experience working in NHS mental health services. Beyond this, I've also worked in voluntary organisations and in private practice. I'm currently based in London.
 
