@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-description: my background and experience
+description: my background, experience and approach
 nav-menu: true
 order: 1
 ---
