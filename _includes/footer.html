@@ -6,7 +6,7 @@
                 <input type="hidden" name="access_key" value="4d3a6c07-7fed-4d90-8274-16aceb25e490">
                 <div class="field half first">
                     <label for="name">First Name</label>
-                    <input type="text" name="name" id="name" required="required" />
+                    <input type="text" name="name" id="name" required="required"/>
                 </div>
                 <div class="field half">
                     <label for="email">Email</label>
@@ -18,7 +18,9 @@
                 </div>
                 <p class="text-base text-center " id="result"></p>
                 <ul class="actions">
-                    <li><button id="submit" type="submit" class="button special">Submit</button></li>
+                    <li>
+                        <button id="submit" type="submit" class="button special">Submit</button>
+                    </li>
                 </ul>
             </form>
             <div id="thank-you-box" class="box" hidden="hidden">
@@ -42,7 +44,6 @@
                 </div>
             </section>
             {% endif %}
-            {% if site.socials.Instagram %}
             <section>
                 <div class="contact-method">
                     <span class="icon alt fa-instagram"></span>
@@ -50,7 +51,6 @@
                     <a href="https://www.instagram.com/therapist.for.anxious.adults/?hl=en">therapist.for.anxious.adults</a>
                 </div>
             </section>
-            {% endif %}
         </section>
     </div>
 </section>
@@ -74,7 +74,9 @@
             <li>
                 <!-- Professional verification provided by Psychology Today -->
                 <a href="https://www.psychologytoday.com/profile/1013993" class="sx-verified-seal"></a>
-                <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="15" data-id="1013993" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
+                <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="15"
+                        data-id="1013993"
+                        data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script>
                 <!-- End Verification -->
             </li>
             <li>
@@ -86,21 +88,21 @@
         </ul>
     </div>
 
-<!-- Netlify banner, not really needed -->
-<!--    <img src="https://api.netlify.com/api/v1/badges/076a0b05-6cf7-4f85-9af1-333f21f09a3d/deploy-status" />-->
+    <!-- Netlify banner, not really needed -->
+    <!--    <img src="https://api.netlify.com/api/v1/badges/076a0b05-6cf7-4f85-9af1-333f21f09a3d/deploy-status" />-->
 </footer>
 
 </div>
 
 <!-- Scripts -->
-<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
-<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
-<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
-<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
-<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+<script src="{{ " assets/js/jquery.min.js" | absolute_url }}"></script>
+<script src="{{ " assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+<script src="{{ " assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+<script src="{{ " assets/js/skel.min.js" | absolute_url }}"></script>
+<script src="{{ " assets/js/util.js" | absolute_url }}"></script>
 <!--[if lte IE 8]>
 <script src="{{ " assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
-<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+<script src="{{ " assets/js/main.js" | absolute_url }}"></script>
 
 <script>
     const form = document.getElementById("form");
