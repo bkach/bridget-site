@@ -6,7 +6,7 @@ nav-menu: true
 order: 2
 ---
 
-<img src="assets/images/therapy.jpg">
+<img src="assets/images/therapy.jpg" style="max-height: 300px;">
 
 Use the form below to book a session. Please include your availability and a brief summary of your current difficulties.
 

@@ -8,9 +8,12 @@ order: 4
 
 ## Referrals
 
-You can make an appointment by email, or via the online contact form below. I understand that reaching out for psychological help can be difficult, so feel free to contact me in the way that suits you best. When you do get in touch, please include your availability and a brief summary of your current difficulties.
+You can make an appointment by email, or via the online contact form below. I understand that reaching out for
+psychological help can be difficult, so feel free to contact me in the way that suits you best. When you do get in
+touch, please include your availability and a brief summary of your current difficulties.
 
-I will try to contact you within two working days to arrange an initial appointment. In that session, we’ll explore your current difficulties in order to find the best treatment options for you going forward.
+I will try to contact you within two working days to arrange an initial appointment. In that session, we’ll explore your
+current difficulties in order to find the best treatment options for you going forward.
 
 <hr />
 
@@ -18,7 +21,10 @@ I will try to contact you within two working days to arrange an initial appointm
 
 Your therapy appointment will last for 50 minutes.
 
-The self-funded fee for individual therapy is £120. The fee will be payable via bank transfer prior to the appointment.
+The self-funded fee for individual therapy is £100 for a daytime appointment and £120 for an evening appointment. The
+fee will be payable via bank transfer prior to the appointment.
+
+I'm recognised with the following insurance providers: Aviva, AXA, Cigna, Vitality, and WPA.
 
 <hr />
 
