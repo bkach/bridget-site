@@ -12,7 +12,7 @@ Hello I’m Bridget Barnes, a Cognitive Behavioural Therapist who specialises in
 
 I firmly believe that you can overcome the behaviours that are limiting your life and can quieten your overwhelming  anxious thoughts through the process of therapy.
 
-<b>Book a no obligation free 15 minute introductory call to get started.</b> 
+<b>Book a no obligation free 15 minute introductory call to get started and see if it's a good fit for you.</b> 
 
 Here's some recent client feedback
 <blockquote>
