@@ -8,12 +8,11 @@ author: null
 show_tile: false
 ---
 
+Hello I’m Bridget Barnes, a Cognitive Behavioural Therapist. I specialise in Anxiety Disorders. I'm passionate about giving my clients more control over their lives and breaking through the wall of anxiety holding them back.
 
-Hello, I’m Bridget, a Cognitive Behavioural Therapist. I am a specialist in Anxiety Disorders. I believe it’s important that I help you to have agency over your life and to live a life more in line with your values.
+I firmly believe that you can overcome the behaviours that are limiting your life and can quieten any overwhelming  anxious thoughts through the process of therapy.
 
-You can overcome behaviours that are limiting your life and can quieten your overwhelming thoughts.
-
-<b>Book a no obligation free 15 min introductory call to have a chat and see if therapy with me is good fit for you.</b> 
+<b>Book a no obligation free 15 minute introductory call to see if this good fit for you.</b> 
 
 Here's some recent client feedback
 <blockquote>
