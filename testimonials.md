@@ -39,9 +39,9 @@ Bridget is a very skilled and empathetic therapist. I am so grateful to her for 
 </blockquote>
 
 <blockquote>
-“I found our sessions so helpful and have already recommended it to people I know who suffer with anxiety. I have learnt
+I found our sessions so helpful and have already recommended it to people I know who suffer with anxiety. I have learnt
 so many helpful techniques to take into my life to change things for the better. Bridget was very helpful + patient,
-explaining everything in detail + listening to my needs. She was kind, professional + thorough.”
+explaining everything in detail + listening to my needs. She was kind, professional + thorough.
 </blockquote>
 
 <blockquote>
