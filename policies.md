@@ -21,10 +21,9 @@ current difficulties in order to find the best treatment options for you going f
 
 Your therapy appointment will last for 50 minutes.
 
-The self-funded fee for individual therapy is £100 for a daytime appointment and £120 for an evening appointment. The
-fee will be payable via bank transfer prior to the appointment.
+The self-funded fee for individual therapy is £120. The fee will be payable via bank transfer prior to the appointment.
 
-I'm recognised with the following insurance providers: Aviva, AXA, Cigna, Vitality, and WPA.
+I'm recognised with the following insurance providers: Aviva, AXA, Cigna, and WPA.
 
 <hr />
 
