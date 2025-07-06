@@ -7,11 +7,11 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  conditions = {Role = ["admin"]}
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
+#   conditions = {Role = ["admin"]}
 
 [[headers]]
   for = "/*"
