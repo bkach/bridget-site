@@ -3,7 +3,7 @@ layout: post
 title: Meet the team
 description: Meet my associates
 nav-menu: true
-order: 1
+order: 3
 ---
 
 <div class="associates-list" style="display: flex; flex-direction: column; gap: 2em; align-items: center;">
