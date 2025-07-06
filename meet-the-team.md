@@ -8,6 +8,18 @@ order: 1
 
 <div class="associates-list" style="display: flex; flex-direction: column; gap: 2em; align-items: center;">
 
+<style>
+@media (max-width: 768px) {
+  .associate {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .associate img {
+    margin-bottom: 1em;
+  }
+}
+</style>
+
   <div class="associate" style="background: #2a2f4a; border-radius: 8px; padding: 1.5em; width: 100%;  display: flex; flex-direction: row; align-items: center; gap: 2em;">
     <div style="flex-shrink: 0;">
       <img src="assets/images/avatar.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:50%;">
