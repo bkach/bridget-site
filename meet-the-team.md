@@ -16,18 +16,14 @@ order: 1
     gap: 0.5em !important;
   }
   .associate img {
-    width: 180px !important;
-    height: 120px !important;
-    border-radius: 16px !important;
-    align-self: flex-start !important;
-    object-position: top !important;
+    margin-bottom: 1em;
   }
 }
 </style>
 
   <div class="associate" style="background: #2a2f4a; border-radius: 8px; padding: 1.5em; width: 100%;  display: flex; flex-direction: row; align-items: center; gap: 2em;">
     <div style="flex-shrink: 0;">
-      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:180px; object-fit:cover; border-radius:16px; align-self:flex-start;">
+      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:180px; object-fit:cover; border-radius:16px;">
     </div>
     <div>
       <h3 style="margin: 0 0 0.2em 0; color: #ffffff;">Jane Doe</h3>
