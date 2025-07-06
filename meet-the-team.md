@@ -15,15 +15,17 @@ order: 1
     text-align: center;
     gap: 0.5em !important;
   }
-  .associate img {
-    margin-bottom: 1em;
-  }
+}
+
+.associate img {
+  align-self: flex-start;
+  object-position: top;
 }
 </style>
 
   <div class="associate" style="background: #2a2f4a; border-radius: 8px; padding: 1.5em; width: 100%;  display: flex; flex-direction: row; align-items: center; gap: 2em;">
     <div style="flex-shrink: 0;">
-      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:180px; object-fit:cover; border-radius:16px;">
+      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:16px;">
     </div>
     <div>
       <h3 style="margin: 0 0 0.2em 0; color: #ffffff;">Jane Doe</h3>
