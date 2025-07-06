@@ -25,7 +25,7 @@ John specializes in couples therapy and trauma recovery. He is dedicated to crea
 ### <img src="assets/images/associate3.jpg" alt="Priya Patel" style="width:120px;float:left;margin-right:1.5em;"> Priya Patel, Child & Adolescent Therapist
 **Specialty:** Child & Adolescent Mental Health
 
-Priya works with children and teenagers, supporting them through emotional and behavioral difficulties. She uses creative, age-appropriate techniques to engage young clients and their families.
+Priya works with children and teenagers, supporting them through emotional and behavioral difficulties. She uses creative, age-appropriate techniques to engage young clients and their families..
 
 </div>
 
