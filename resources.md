@@ -3,6 +3,7 @@ layout: post
 title: Resources
 description: Free resources to help with therapy (coming soon!)
 nav-menu: true
+published: false
 order: 6
 ---
 

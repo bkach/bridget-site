@@ -17,7 +17,7 @@ order: 5
   <ul style="margin-bottom: 1em;">
     <li><b>Session length:</b> 50 minutes</li>
     <li><b>Self-funded fee:</b> £120 per session (payable via bank transfer prior to the appointment)</li>
-    <li><b>Insurance accepted:</b> Aviva, AXA, Cigna, WPA</li>
+    <li><b>Insurance accepted:</b> Aviva, Cigna, WPA</li>
   </ul>
 </div>
 

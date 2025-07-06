@@ -6,15 +6,10 @@ nav-menu: true
 order: 1
 ---
 
-<div style="display: flex; flex-direction: row; align-items: center; gap: 2em; background: #2a2f4a; border-radius: 10px; padding: 2em; margin-bottom: 2em; flex-wrap: wrap;">
-  <div style="flex: 0 0 140px; max-width: 140px;">
-    <img src="assets/images/avatar.png" class="dynamic-sizing-image" alt="Photo of Bridget" style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px;" />
-  </div>
-  <div style="flex: 1 1 250px; color: #fff; min-width: 200px;">
-    <h2 style="margin-top: 0; color: #fff;">About Me</h2>
-    <p>I'm <b>Bridget Barnes</b>, an accredited Cognitive Behavioural Psychotherapist (British Association for Behavioural and Cognitive Psychotherapists). I've trained at the Institute of Psychiatry Psychology and Neuroscience at King's College London. I have a decade of experience working in NHS mental health services. Beyond this, I've also worked in voluntary organisations and in private practice. I'm currently based in London.</p>
-    <p>I pride myself in providing you with the highest quality care during your sessions. Sessions are currently remote.</p>
-  </div>
+<div class="about-box" style="background: #2a2f4a; border-radius: 10px; padding: 2em; width: 100%; margin: 2em 0;">
+  <img src="assets/images/avatar.png" class="dynamic-sizing-image" alt="Photo of Bridget" style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; display: block; margin: 0em 1em 1.5em 0;" />
+  <p style="color: #fff; ">I'm <b>Bridget Barnes</b>, an accredited Cognitive Behavioural Psychotherapist (British Association for Behavioural and Cognitive Psychotherapists). I've trained at the Institute of Psychiatry Psychology and Neuroscience at King's College London. I have a decade of experience working in NHS mental health services. Beyond this, I've also worked in voluntary organisations and in private practice. I'm currently based in London.</p>
+  <p style="color: #fff; ">I pride myself in providing you with the highest quality care during your sessions. Sessions are currently remote.</p>
 </div>
 
 <div class="box" style="background: #2a2f4a; color: #fff; border-radius: 10px; padding: 2em;">
