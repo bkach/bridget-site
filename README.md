@@ -1,66 +1,79 @@
-# Forty - Jekyll Theme
+# Bridget Barnes Psychotherapy
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+A modern, clean website for Bridget Barnes Psychotherapy built with Hugo and the PaperMod theme.
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+## Local Development
 
-# How to Use
+### Prerequisites
+- Hugo Extended version 0.147.9 or later
+- Git
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+### Running Locally
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd bridget-site
 
-Simply fork this repository and start editing the `_config.yml` file!
-
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
-
-# Added Features
-
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
-
-# Credits
-
-Original README from HTML5 UP:
-
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
+# Start the development server
+hugo server --bind 0.0.0.0 --port 1313
 ```
 
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+The site will be available at `http://localhost:1313`
+
+## Deployment
+
+### Netlify (Recommended)
+This site is configured for automatic deployment on Netlify:
+
+1. Connect your GitHub repository to Netlify
+2. Netlify will automatically detect Hugo and use the settings in `netlify.toml`
+3. Build settings:
+   - Build command: `hugo --gc --minify`
+   - Publish directory: `public`
+   - Hugo version: 0.147.9
+
+### Manual Build
+```bash
+# Build the site
+hugo --gc --minify
+
+# The built site will be in the `public/` directory
+```
+
+## Site Structure
+
+- `content/` - Markdown content files
+- `layouts/` - Custom Hugo templates
+- `static/` - Static assets (images, CSS, JS)
+- `config.toml` - Hugo configuration
+- `netlify.toml` - Netlify deployment configuration
+
+## Content Management
+
+### Adding New Pages
+Create markdown files in the `content/` directory:
+
+```markdown
+---
+title: "Page Title"
+date: 2024-01-01
+draft: false
+---
+
+Page content here...
+```
+
+### Blog Posts
+Add blog posts to `content/posts/` with the same front matter format.
+
+## Customization
+
+### Theme
+This site uses the PaperMod theme with custom modifications. Theme files are in `themes/PaperMod/`.
+
+### Styling
+Custom CSS can be added to `assets/css/` and will be automatically compiled.
+
+## Support
+
+For issues or questions about the site, please contact the development team. 

@@ -1,0 +1,119 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Bridget Barnes Psychotherapy'
+theme = 'github.com/adityatelange/hugo-PaperMod'
+
+[params]
+  # Site description
+  description = "CBT Specialist Online"
+  
+  # Default theme "auto" to switch between dark and light mode
+  defaultTheme = "auto"
+  
+  # Show post reading time
+  ShowReadingTime = true
+  
+  # Show word count
+  ShowWordCount = true
+  
+  # Show post date
+  ShowDate = true
+  
+  # Show post last modified date
+  ShowLastMod = true
+  
+  # Show table of contents
+  ShowToc = true
+  
+  # Enable auto toc
+  TocOpen = true
+  
+  # Show code copy button
+  ShowCodeCopyButtons = true
+  
+  # Show full text in RSS
+  ShowFullTextinRSS = true
+  
+  # Show post navigation
+  ShowPostNavLinks = true
+  
+  # Show breadcrumbs
+  ShowBreadCrumbs = true
+  
+  # Show taxonomy
+  ShowTaxonomy = true
+  
+  # Enable comments
+  comments = false
+  
+  # Enable math
+  math = false
+  
+  # Enable mermaid
+  mermaid = false
+  
+  # Enable katex
+  katex = false
+  
+  # Enable highlight
+  highlight = false
+  
+  # Enable chroma
+  chroma = false
+  
+  # Enable diagrams
+  diagrams = false
+  
+  # Environment
+  env = "production"
+
+[params.homeInfoParams]
+  Title = "Bridget Barnes Psychotherapy"
+  Content = "CBT Specialist Online"
+
+[params.profileMode]
+  enabled = true
+  title = "Bridget Barnes"
+  subtitle = "Cognitive Behavioural Therapist"
+  imageUrl = "images/avatar.png"
+  imageTitle = "Bridget Barnes"
+  buttons = [{name = "Book a Session", url = "/book-a-session"}]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "book"
+    name = "Book a Session"
+    url = "/book-a-session/"
+    weight = 20
+  [[menu.main]]
+    identifier = "testimonials"
+    name = "Testimonials"
+    url = "/testimonials/"
+    weight = 30
+  [[menu.main]]
+    identifier = "policies"
+    name = "Policies"
+    url = "/policies/"
+    weight = 40
+  [[menu.main]]
+    identifier = "associates"
+    name = "Associates"
+    url = "/associates/"
+    weight = 50
+
+[params.socialIcons]
+  email = { url = "mailto:bridgetbarnestherapy@gmail.com" }
+  phone = { url = "tel:07440595937" }
+  instagram = { url = "https://www.instagram.com/therapist.for.anxious.adults/?hl=en" }
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false 

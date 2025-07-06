@@ -1,0 +1,38 @@
+{{- $schema := site.Params.schema | default "https://schema.org" -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": {{ .Permalink }},
+  {{- if .Title }}
+  "name": {{ .Title }},
+  {{- end }}
+  {{- if .Description }}
+  "description": {{ .Description }},
+  {{- end }}
+  {{- if .Date }}
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+  {{- end }}
+  {{- if .Lastmod }}
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
+  {{- end }}
+  {{- if .Params.author }}
+  "author": {
+    "@type": "Person",
+    "name": {{ .Params.author }}
+  },
+  {{- end }}
+  {{- if .Params.image }}
+  "image": {{ .Params.image }},
+  {{- end }}
+  {{- if .Params.keywords }}
+  "keywords": {{ delimit .Params.keywords ", " }},
+  {{- end }}
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.Title }},
+    "url": {{ site.BaseURL }}
+  }
+}
+</script> 
