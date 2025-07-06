@@ -25,19 +25,19 @@ order: 1
 
   <div class="associate" style="background: #2a2f4a; border-radius: 8px; padding: 1.5em; width: 100%;  display: flex; flex-direction: row; align-items: center; gap: 2em;">
     <div style="flex-shrink: 0;">
-      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:16px;">
+      <img src="assets/images/bridget.jpg" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:16px;">
     </div>
     <div>
-      <h3 style="margin: 0 0 0.2em 0; color: #ffffff;">Jane Doe</h3>
+      <h3 style="margin: 0 0 0.2em 0; color: #ffffff;">Bridget Barnes</h3>
       <div style="font-weight: bold; color: #ffffff;">CBT Therapist</div>
-      <div style="font-style: italic; color: rgba(244,244,255,0.8);">Specialty: Anxiety, Depression</div>
-      <p style="margin-top: 1em; color: #ffffff;">Jane is a compassionate CBT therapist with over 10 years of experience helping adults manage anxiety and depression. She believes in a collaborative, evidence-based approach to mental health.</p>
+      <div style="font-style: italic; color: rgba(244,244,255,0.8);">Specialty: Anxiety, OCD</div>
+      <p style="margin-top: 1em; color: #ffffff;">Bridget is an accredited Cognitive Behavioural Psychotherapist with a decade of experience in NHS mental health services, voluntary organisations, and private practice. She trained at King's College London and specialises in anxiety disorders, OCD, and related conditions. Bridget is passionate about empowering clients to overcome limiting behaviours and develop lifelong skills for managing anxiety, using evidence-based therapies in a thoughtful, creative, and collaborative way.</p>
     </div>
   </div>
 
   <div class="associate" style="background: #2a2f4a; border-radius: 8px; padding: 1.5em; width: 100%;  display: flex; flex-direction: row; align-items: center; gap: 2em;">
     <div style="flex-shrink: 0;">
-      <img src="assets/images/avatar.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:50%;">
+      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:16px;">
     </div>
     <div>
       <h3 style="margin: 0 0 0.2em 0; color: #ffffff;">John Smith</h3>
@@ -49,7 +49,7 @@ order: 1
 
   <div class="associate" style="background: #2a2f4a; border-radius: 8px; padding: 1.5em; width: 100%;  display: flex; flex-direction: row; align-items: center; gap: 2em;">
     <div style="flex-shrink: 0;">
-      <img src="assets/images/avatar.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:50%;">
+      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:16px;">
     </div>
     <div>
       <h3 style="margin: 0 0 0.2em 0; color: #ffffff;">Priya Patel</h3>
@@ -61,7 +61,7 @@ order: 1
 
   <div class="associate" style="background: #2a2f4a; border-radius: 8px; padding: 1.5em; width: 100%;  display: flex; flex-direction: row; align-items: center; gap: 2em;">
     <div style="flex-shrink: 0;">
-      <img src="assets/images/avatar.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:50%;">
+      <img src="assets/images/associate1.png" alt="Jane Doe" style="width:120px; height:120px; object-fit:cover; border-radius:16px;">
     </div>
     <div>
       <h3 style="margin: 0 0 0.2em 0; color: #ffffff;">Dr. Sarah Chen</h3>
