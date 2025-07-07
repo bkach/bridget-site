@@ -3,7 +3,6 @@ layout: post
 title: Meet the team
 description: Meet my associates
 nav-menu: true
-published: false
 order: 3
 ---
 
